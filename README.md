@@ -65,11 +65,6 @@ Welcome to my **Data Science Internship** repository for **CodSoft**. This repo 
 - **Models:** Random Forest Regressor, Linear Regression
 - **Evaluation:** MSE, RMSE, MAE, R² Score
 
-📊 Visuals:
-- Dot Plot: Actual vs Predicted
-- Residual Distribution
-- Horizontal Bar Chart: Feature Importance
-
 ---
 
 ## 📌 Author
