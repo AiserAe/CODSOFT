@@ -34,4 +34,4 @@ This project aims to predict IMDb movie ratings based on features like genre, di
 ## 👨‍💻 Author
 
 **Tanishk Singh**  
-CodSoft Data Science Internship
+CodSoft Data Science Intern
