@@ -1,42 +1,87 @@
-# 🚀 CodSoft Data Science Internship – Project Portfolio
+# 🚀 CodSoft Data Science Internship Projects
 
-Welcome! 👋 This repository includes the 5 tasks I completed as part of my **Data Science Internship at CodSoft**.
-
-Each task was designed to strengthen my skills in data handling, analysis, and machine learning — and gave me hands-on experience working with real-world datasets.
+Welcome to my **Data Science Internship** repository for **CodSoft**. This repo contains four projects, each demonstrating practical applications of machine learning — including classification and regression tasks — using real-world datasets.
 
 ---
 
-## 📌 Projects Covered
+## 📂 Projects Included
 
-1. 🎯 **Titanic Survival Prediction**  
-   Predicting which passengers survived the Titanic tragedy using logistic regression.
-
-2. 🎬 **Movie Rating Prediction**  
-   Estimating IMDb ratings based on features like genre, director, and actors using regression.
-
-3. 🌸 **Iris Flower Classification**  
-   A simple but powerful classification task using flower measurements.
-
-4. 📈 **Sales Prediction**  
-   Predicting product sales based on advertising spend with linear regression.
-
-5. 💳 **Credit Card Fraud Detection**  
-   Detecting fraudulent transactions using classification models and handling class imbalance.
+| Task | Project Title                | Description                                                |
+|------|------------------------------|------------------------------------------------------------|
+| 1️⃣   | Titanic Survival Prediction  | Predict whether a passenger survived the Titanic disaster |
+| 2️⃣   | Movie Rating Prediction      | Estimate IMDb movie ratings using metadata features        |
+| 3️⃣   | Iris Flower Classification   | Classify iris flowers into species based on their features |
+| 4️⃣   | Sales Prediction             | Predict product sales based on ad spend and other factors  |
 
 ---
 
-## 🛠 Tools & Libraries
+## 🧠 Technologies Used
 
-- Python
-- pandas
-- scikit-learn
-- matplotlib
-- imbalanced-learn (SMOTE)
-  
+- Python 3
+- NumPy & Pandas
+- Matplotlib & Seaborn
+- Scikit-learn
+
 ---
 
-## 📢 Notes
+## 🔍 Task Details
 
-Feel free to explore each folder to see the code and dataset used for the task.
+### ✅ Task 1: Titanic Survival Prediction
 
-> Thanks to CodSoft for the opportunity! ✨  
+- **Dataset:** `Titanic-Dataset.csv`
+- **Goal:** Predict if a passenger survived the Titanic disaster.
+- **Features Used:** Pclass, Sex, Age, SibSp, Parch, Fare
+- **Model:** Random Forest Classifier
+- **Evaluation:** Accuracy, Classification Report
+
+
+---
+
+### ✅ Task 2: Movie Rating Prediction
+
+- **Dataset:** `IMDb Movies India.csv`
+- **Goal:** Predict IMDb ratings based on movie metadata
+- **Features Used:** Genre, Director, Duration, Year, Actor
+- **Model:** Random Forest Regressor
+- **Evaluation:** R² Score, MAE, RMSE
+
+---
+
+### ✅ Task 3: Iris Flower Classification
+
+- **Dataset:** `IRIS.csv`
+- **Goal:** Classify flowers into Setosa, Versicolor, or Virginica
+- **Features Used:** Sepal and Petal length/width
+- **Models:** Random Forest & SVM
+- **Evaluation:** Accuracy, Confusion Matrix, Feature Importance
+
+---
+
+### ✅ Task 4: Sales Prediction
+
+- **Dataset:** `advertising.csv`
+- **Goal:** Predict product sales based on various ad spends
+- **Features Used:** TV, Radio, Newspaper
+- **Models:** Random Forest Regressor, Linear Regression
+- **Evaluation:** MSE, RMSE, MAE, R² Score
+
+📊 Visuals:
+- Dot Plot: Actual vs Predicted
+- Residual Distribution
+- Horizontal Bar Chart: Feature Importance
+
+---
+
+## 📌 Author
+
+**Tanishk Singh**  
+_Data Science Intern at CodSoft_
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
