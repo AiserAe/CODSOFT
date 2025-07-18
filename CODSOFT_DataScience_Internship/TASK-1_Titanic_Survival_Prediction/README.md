@@ -6,7 +6,7 @@ This project predicts passenger survival on the Titanic using machine learning a
 
 ## 📂 Dataset
 
-- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 
 ---
 
