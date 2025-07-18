@@ -6,7 +6,7 @@ This project predicts sales revenue based on different advertising channels (TV,
 
 ## 📂 Dataset
 
-- **Source:** [Advertising Dataset](https://www.kaggle.com/datasets/yk1598/advertisingcsv)
+- **Source:** [Advertising Dataset](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/input)
 
 ---
 
