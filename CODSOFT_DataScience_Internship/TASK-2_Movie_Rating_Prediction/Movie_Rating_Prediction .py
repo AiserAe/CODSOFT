@@ -1,4 +1,4 @@
-# Task 2: Movie Rating Prediction - CodSoft Internship
+# Task 2: Movie Rating Prediction
 
 import pandas as pd
 import numpy as np
