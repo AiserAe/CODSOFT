@@ -7,7 +7,7 @@ This project aims to predict IMDb movie ratings based on features like genre, di
 
 ## 📂 Dataset
 
-- **Source:** [IMDb Movies India Dataset](https://www.kaggle.com/datasets/sagnik1511/imdb-indian-movies-dataset)
+- **Source:** [IMDb Movies India Dataset](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
 
 ---
 
