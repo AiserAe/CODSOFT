@@ -1,5 +1,4 @@
 # Task 1: Titanic Survival Prediction
-# CODSOFT Data Science Internship
 
 import pandas as pd
 import matplotlib.pyplot as plt
