@@ -30,7 +30,7 @@ def preprocess_data(df):
     return df
 
 def main():
-    print("=== TITANIC SURVIVAL PREDICTION (USING CSV) ===")
+    print("=== TITANIC SURVIVAL PREDICTION  ===")
 
     df = load_data()
     print(f"Dataset shape: {df.shape}")
@@ -83,7 +83,7 @@ def main():
     plt.tight_layout()
     plt.show()
 
-    print("\n=== Task 1 Completed Using CSV! ===")
+    print("\n=== Task 1 Completed ===")
 
 if __name__ == "__main__":
     main()
