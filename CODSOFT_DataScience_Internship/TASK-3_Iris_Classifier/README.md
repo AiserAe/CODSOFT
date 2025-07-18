@@ -7,7 +7,7 @@ This project focuses on classifying Iris flowers into species (Setosa, Versicolo
 
 ## 📂 Dataset
 
-- **Source:** [Iris Dataset - UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris)
+- **Source:** [Iris Dataset - UCI Machine Learning Repository](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
 
 ---
 
