@@ -8,12 +8,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import LabelEncoder
 
-# Load the Titanic dataset
 def load_data():
     df = pd.read_csv("Titanic-Dataset.csv")
     return df
 
-# Preprocess the data for modeling
 def preprocess_data(df):
     drop_cols = ['Name', 'Ticket', 'Cabin', 'PassengerId']
     df = df.drop(columns=[col for col in drop_cols if col in df.columns])
@@ -36,7 +34,6 @@ def main():
     print(f"Dataset shape: {df.shape}")
     print(f"Survival rate: {df['Survived'].mean():.2%}")
 
-    # Basic survival-related visualizations
     plt.figure(figsize=(12, 4))
 
     plt.subplot(1, 3, 1)
