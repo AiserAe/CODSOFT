@@ -1,5 +1,4 @@
 # Task 4: Sales Prediction Using Python
-# CodSoft Data Science Internship
 
 import pandas as pd
 import numpy as np
@@ -11,7 +10,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 
-# Load dataset
 def load_data():
     return pd.read_csv("advertising.csv")
 
@@ -22,11 +20,9 @@ def main():
     print(f"Dataset shape: {df.shape}")
     print(df.head())
 
-    # Features and target
     X = df[['TV', 'Radio', 'Newspaper']]
     y = df['Sales']
 
-    # Train-test split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     models = {
@@ -53,7 +49,6 @@ def main():
         print(f"  MAE: {mae:.2f}")
         print(f"  R² Score: {r2:.4f}")
 
-    # Visualizations
     best_model = RandomForestRegressor(n_estimators=100, random_state=42)
     best_model.fit(X_train, y_train)
     y_pred = best_model.predict(X_test)
@@ -66,7 +61,6 @@ def main():
 
     plt.figure(figsize=(18, 5))
 
-    # Actual vs Predicted (dot plot)
     plt.subplot(1, 3, 1)
     plt.scatter(y_test, y_pred, alpha=0.7, color='dodgerblue')
     plt.plot([y.min(), y.max()], [y.min(), y.max()], 'r--')
@@ -74,14 +68,12 @@ def main():
     plt.ylabel('Predicted Sales')
     plt.title('Actual vs Predicted Sales')
 
-    # Residuals Histogram
     plt.subplot(1, 3, 2)
     sns.histplot(residuals, bins=20, kde=True, color='skyblue')
     plt.axvline(0, color='red', linestyle='--')
     plt.title('Residuals Distribution')
     plt.xlabel('Residual')
 
-    # Feature Importance (separate horizontal bar chart)
     plt.subplot(1, 3, 3)
     sns.barplot(data=importance, x='Importance', y='Feature')
     plt.title('Feature Importance')
