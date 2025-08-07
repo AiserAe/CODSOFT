@@ -73,10 +73,3 @@ Welcome to my **Data Science Internship** repository for **CodSoft**. This repo 
 _Data Science Intern at CodSoft_
 
 ---
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
